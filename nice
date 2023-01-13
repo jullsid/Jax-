@@ -1,2 +1,11 @@
-Jax is very good boy.
-GIa is very good girl.
+pipeline{
+agent any
+stages{
+stage("My first stage"){
+steps{
+echo "THis is my first stage implimented"
+}
+}
+
+}
+}
